@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+/* === Base Theme === */
+html, body, .stApp {
+    background-color: #f6e58d !important; /* Premium warm yellow */
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 12px 32px rgba(0, 255, 100, 0.08);
+    backdrop-filter: blur(6px);
+    max-width: 1000px;
+    margin: auto;
+}
+h1, h2, h3, h4 {
+    color: #14532d;
+    font-weight: 600;
+}
+h1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 3rem !important;
+    color: #1e1e1e !important;  /* Adjust color for visibility on yellow */
+    font-weight: 700 !important;
+    margin-bottom: 1rem;
+}
+h1 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.block-container {
+    padding: 2rem 1rem;
+}
+.stTextInput > div > div > input,
+.stTextArea > div > textarea,
+.stSelectbox > div {
+    background-color: #1e1e1e !important;
+    color: #b10064; !important;
+    border: 1px solid #2ecc71 !important;
+    border-radius: 12px !important;
+}
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #b10064; !important;
+}
+.css-1jqq78o-placeholder {
+    color: #b10064; !important;
+}
+.stSelectbox label, .stTextInput label, .stTextArea label {
+    color: #b10064; !important;
+}
+.stForm {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 255, 100, 0.12);
+    backdrop-filter: blur(10px);
+    margin-bottom: 2rem;
+}
+.stButton button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.6rem 1.4rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.stButton button:hover {
+    background-color: #27ae60;
+    transform: scale(1.03);
+}
+.stMarkdown, .stDataFrame, .stTextArea {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+    backdrop-filter: blur(6px);
+    margin-top: 1rem;
+}
+.stExpander > div > div {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 1rem !important;
+    padding: 1rem !important;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+}
+.stDownloadButton > button {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+.css-1offfwp {
+    background-color: transparent !important;
+}
+
+/* === File Uploader === */
+.stFileUploader {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+    backdrop-filter: blur(8px);
+    margin-top: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stFileUploader label {
+    color: #14532d !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.stFileUploader .uploadedFileName {
+    color: #ffffff;
+}
+.stFileUploader .css-1cpxqw2 {
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 8px;
+    padding: 0.4rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.stFileUploader .css-1cpxqw2:hover {
+    background-color: #27ae60;
+    transform: scale(1.03);
+}
+.stFileUploader svg {
+    display: none;
+}
+/* Sidebar premium magenta theme */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+section[data-testid="stSidebar"] {
+    background-color: #8e44ad !important;
+    padding: 2rem 1rem !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+    font-weight: 500 !important;
+}
+
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+section[data-testid="stSidebar"] .css-1aumxhk,
+section[data-testid="stSidebar"] .css-1c7y2kd {
+    background-color: transparent !important;
+    border-radius: 10px !important;
+    padding: 0.6rem 1rem !important;
+    font-weight: 500 !important;
+    transition: background 0.3s ease;
+}
+
+section[data-testid="stSidebar"] .css-1aumxhk:hover,
+section[data-testid="stSidebar"] .css-1c7y2kd:hover {
+    background-color: #d2b4de !important;
+    color: black !important;
+    font-weight: 600 !important;
+}

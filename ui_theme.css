@@ -1,0 +1,124 @@
+
+import streamlit as st
+
+def apply_fitness_theme():
+    st.markdown("""
+    <style>
+    .main {
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 24px;
+        padding: 2rem;
+        box-shadow: 0 12px 32px rgba(0, 255, 100, 0.08);
+        backdrop-filter: blur(6px);
+        max-width: 1000px;
+        margin: auto;
+    }
+    h1, h2, h3, h4 {
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .block-container {
+        padding: 2rem 1rem;
+    }
+    .stTextInput > div > div > input,
+    .stSelectbox > div > div,
+    .stTextArea > div > textarea {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #2ecc71;
+        border-radius: 12px;
+        padding: 0.75rem;
+        color: white;
+        backdrop-filter: blur(8px);
+    }
+    .stSelectbox label, .stTextInput label, .stTextArea label {
+        color: #ffffff !important;
+    }
+    .stForm {
+        background: rgba(255, 255, 255, 0.06);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        box-shadow: 0 8px 32px rgba(0, 255, 100, 0.12);
+        backdrop-filter: blur(10px);
+        margin-bottom: 2rem;
+    }
+    .stButton button {
+        background-color: #2ecc71;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 0.6rem 1.4rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    .stButton button:hover {
+        background-color: #27ae60;
+        transform: scale(1.03);
+    }
+    .stMarkdown, .stDataFrame, .stTextArea {
+        background-color: rgba(255, 255, 255, 0.05);
+        color: #ffffff;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+        backdrop-filter: blur(6px);
+        margin-top: 1rem;
+    }
+    .stExpander > div > div {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+        border-radius: 1rem !important;
+        padding: 1rem !important;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+    }
+    .stDownloadButton > button {
+        background-color: #2ecc71;
+        color: white;
+        font-weight: bold;
+        border-radius: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .css-1offfwp {
+        background-color: transparent !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+def apply_upload_style():
+    st.markdown("""
+    <style>
+    .stFileUploader {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: 0 4px 12px rgba(0,255,100,0.1);
+        backdrop-filter: blur(8px);
+        margin-top: 1rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stFileUploader label {
+        color: #ffffff !important;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .stFileUploader .uploadedFileName {
+        color: #ffffff;
+    }
+    .stFileUploader .css-1cpxqw2 {
+        background-color: #2ecc71;
+        color: white;
+        border-radius: 8px;
+        padding: 0.4rem 1.2rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    .stFileUploader .css-1cpxqw2:hover {
+        background-color: #27ae60;
+        transform: scale(1.03);
+    }
+    .stFileUploader svg {
+        display: none;
+    }
+    </style>
+    """, unsafe_allow_html=True)

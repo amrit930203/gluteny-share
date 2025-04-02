@@ -1,0 +1,3 @@
+([('Nutrition_Assistant',
+   '/Users/amritprakash/nutrition-assistant/dist/Nutrition_Assistant',
+   'EXECUTABLE')],)

@@ -1,0 +1,6 @@
+streamlit
+openai
+python-dotenv
+pandas
+python-dateutil
+html5lib
